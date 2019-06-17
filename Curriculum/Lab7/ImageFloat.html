@@ -4,14 +4,30 @@
 <head>
     <title>Clematis</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    #leftFlower {
+        float:left;
+        margin-right: 10px;
+    }
+    #rightFlower {
+        float:right;
+        margin-left: 10px;
+    }
+    .floatingDiv {
+        width: 150px;
+        margin: 5px;
+        border: 1px solid;
+        float:left;
+    }
+    </style>
 </head>
 <body>
     Resize your browser and watch the content flow...
 
     <h1>Flowers - Clematis</h1>
 
-    <img src="flowers1-10.jpg">
-    <img src="flowers3-10.jpg">
+    <img id="leftFlower" src="flowers1-10.jpg">
+    <img id="rightFlower" src="flowers3-10.jpg">
 
     <p>
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est.
